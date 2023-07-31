@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Lilith</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            
+            <ul class="link">
+                <li><a href="principal.html" class="link">Página principal</a></li> <br>
+                <li><a href="sobre.html"class="link">Sobre a clínica</a></li> <br>
+                <li><a href="horario.html"class="link">Horário de atendimento</a></li> <br>
+                <li><a href="contato.html"class="link">Contato</a></li> <br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+                <img id="homeimage" src="imagens/contatocerto.png" alt="pagina principal">
+                
+            </div>
+    
+            <div class="content">
+                <label id="texthome">
+                  <fieldset>
+
+                    <legend>Contatos</legend>
+                    <div>
+                        <label>Telefone:(13)9999999</label> 
+                        <br> 
+                        <label>WhatsApp:(13)5555555</label>
+                    </div>
+                    <div>
+                        <label>Email: clinicalilith@gmail.com</label> 
+                        <br>
+                        <label>Instagram: @clinicalilith</label>
+                    </div>
+                  </fieldset>
+                </label> <br>
+
+                <div>
+                    <fieldset>
+                        <div>
+                            <legend>Endereço</legend>
+                            <legend>Av. Pres. Juscelino Kubitschek, 1545 - Vila Nova Conceição, São Paulo </legend>
+                            
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.1129483378317!2d-46.68397286891382!3d-23.59173551734812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5745b5bfe6bf%3A0xc582676cc1fd17b5!2sJK%20Est%C3%A9tica%20Avan%C3%A7ada%20%7C%20Cl%C3%ADnica%20de%20Cirurgia%20Pl%C3%A1stica!5e1!3m2!1spt-BR!2sbr!4v1690584006152!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </fieldset>
+                    <fieldset title="Fale conosco">
+                        <legend>Fale conosco</legend>
+                        <div id="idFormulario">
+                            <form action="post">
+                                <label for="nome">
+                                    Nome completo
+                                </label>
+                                <br>
+                                <input id="nome" type="text" required />
+                                <br>
+                                <label id="email">
+                                    Email
+                                </label>
+                                <br>
+                                <input id="email" type="email" required />
+                                <br>
+                                <label id="assunto">
+                                    Assunto
+                                </label>
+                                <br>
+                                <input id="assunto" type="text" required />
+                                <br>
+                                <label>
+                                    Messagem
+                                </label>
+                                <br>
+                                <textarea rows="10" cols="50" placeholder="Escreva sua mensagem aqui">
+                                </textarea>
+                                <br>
+                                <button title="Enviar sua resposta" type="submit" onclick="alert('Obrigado por entrar em contato. Em breve responderemos.')">
+                                    Enviar
+                                </button>
+                                <button title="Apagar sua resposta" type="reset" onclick="alert('Campos resetados')">
+                                    Corrigir
+                                </button>
+                            </form>
+                        </div>
+                    </fieldset>
+
+                </div>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <div>
+                    <label id="titleFooter">Contatos</label><br>
+                    <label>
+                        Telefone: 
+                        <a href="tel:551133333333" class="link">
+                            (11) 3333-3333
+                        </a>
+                    </label>
+                    <br>
+                    <label>
+                        WhatsApp: 
+                        <a href="http://wa.me/5511999999999" class="link">
+                            (11) 9999-9999
+                        </a>
+                    </label>
+                </div>
+                <div>
+                    <label id="titleFooter">
+                        Endereço
+                    </label>
+                    <br>
+                    <label>
+                        Av. Pres. Juscelino Kubitschek, 1545 
+                    </label>
+                    <br>
+                    <label>
+                        Vila Nova, São Paulo
+                    </label>
+                </div>
+        
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
